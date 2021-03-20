@@ -13,6 +13,7 @@ namespace SingletonDesignPattern
     /// Singleton tasarım kalıbını bu şekilde her nesne için uygulayamayız.
     /// Şöyle ki projemizde her kullanıcı için farklı işlemler gerçekleştiren bir class için singleton uygularsak her bir kullanıcı için aynı verileri kullanmış oluruz.
     /// Örneğin her kullanıcının kullanıcı adı aynı olur gibi.
+    /// Not: Veri tutmayan her nesne için kullanılabilir. Ayrıca sürekli kullanılması gereken bir nesne olmalı ki bellekte gereksiz yere yer işgal etmesin!
     /// https://csharpindepth.com/Articles/Singleton
     /// </summary>
     /// 
